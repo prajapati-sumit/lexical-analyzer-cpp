@@ -55,7 +55,7 @@ int isArithmeticOperator(const string&);
 int isAssignmentOperator(const string&);
 int isRelationalOperator(const string&);
 int isSpecialSymbol(const string&);
-int matchToken(int, int); // returns token_id if token is found in the substring [L,R] else return -1 
+int matchToken(int, int); // returns token_id if token is found in the substring [L,R] else returns -1 
 bool isWhiteSpace(char);
 void lexicalAnalysis();
 void removeComments();
