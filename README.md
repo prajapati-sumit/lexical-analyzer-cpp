@@ -61,6 +61,15 @@ void lexicalAnalysis();
 void removeComments();
 ```
 All the functions are self-explanatory.
+### Finite State Machine of some tokens
+1. **Identifier**
+![identifier](https://raw.githubusercontent.com/prajapati-sumit/images/main/identifier.jpg)
+
+2. **Integer Constant**
+![integer](https://raw.githubusercontent.com/prajapati-sumit/images/main/integer.jpg)
+
+3. **Floating Constant**
+![floating](https://raw.githubusercontent.com/prajapati-sumit/images/main/floating.jpg)
 ## Sample
 For the given `input.in` file, the analyzer generates following two files
 
@@ -76,7 +85,7 @@ return 0
 n 1
  ```
 2.  **`pa_1.out`**
-```cpp
+```py
 423 int
 300 main
 418 (
@@ -134,8 +143,9 @@ n 1
 ## Authors
 
 * **Sumit Kumar Prajapati (B20CS074)**  - [prajapati.3@iitj.ac.in](prajapati.3@iitj.ac.in)
-* **Pratul Singh (B20CS074)**  - [singh.123@iitj.ac.in](prajapati.3@iitj.ac.in)
+* **Pratul Singh (B20CS095)**  - [singh.142@iitj.ac.in](singh.142@iitj.ac.in)
 
 ## References 
 - https://web.stanford.edu/class/cs143/
 - https://app.diagrams.net/
+- 
