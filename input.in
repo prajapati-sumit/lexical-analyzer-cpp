@@ -5,7 +5,7 @@ hello this is a comment and this will
 be removed
 during lexical analyis
 */
-    int x = 4, i = 9.85, ans = 0;
+    int x = 4, i = 0, ans = 0;
     for(/*hello*/i =0;i<x;i++)
         ans += 4;
     return ans;
