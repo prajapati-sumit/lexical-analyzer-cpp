@@ -17,9 +17,8 @@ sudo apt-get install g++
 1. `cd` to this project
 
 2. Compile  with C++ 11
-	- Run the following command in terminal `g++ -std=c++11 FSM.cpp -o FSM`
-OR
-	- Run `make` command if MakeFile is supported in your system
+	- Method 1: Run the following command in terminal `g++ -std=c++11 FSM.cpp -o FSM`
+	- Method 2: Run `make` command if Makefile is supported in your system
 3. Run the executable with input the input file as follows
 ```
 ./FSM < inputProgram
@@ -55,7 +54,7 @@ int isArithmeticOperator(const string&);
 int isAssignmentOperator(const string&);
 int isRelationalOperator(const string&);
 int isSpecialSymbol(const string&);
-int matchToken(int, int); // returns token_id if token is found in the substring [L,R] else return -1 
+int matchToken(int, int); // returns token_id if token is found in the substring [L,R] else returns -1 
 bool isWhiteSpace(char);
 void lexicalAnalysis();
 void removeComments();
