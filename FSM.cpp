@@ -150,7 +150,7 @@ void lexicalAnalysis() {
 
         lexemeBegin = validTokenEndIndex + 1;
     }
-    fprintf(stdout, "Lexical Analsis Completed Successfully\n");
+    fprintf(stdout, "Lexical Analsis Completed Successfully\npa_1.out and symbol_table_1.out written\n");
 }
 // removes comment from the given input file enclosed between /* and */
 void removeComments() {
